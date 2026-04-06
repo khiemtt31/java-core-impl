@@ -1,0 +1,2 @@
+* What is a heap and a stack in Java? Differences ?
+* What is ArrayList ? ArrayList is Dynamic Array that grows in size when capacity is out of reach, usually it will grow 1.5 times if its current size and copy all the elements in the current to put into the new one. So basically it works like an Array but with powerful methods of List and resizable.

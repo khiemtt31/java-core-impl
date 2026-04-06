@@ -1,0 +1,39 @@
+# Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven/Gradle directories
+target/
+build/
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# VS Code workspace settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
