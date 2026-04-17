@@ -7,7 +7,7 @@ Use this as a **daily checklist** and **self-testing prompts**.
 
 # Phase 1 — Java Language Fundamentals (Must Master First)
 
-## 1. Variables & Types [ ]
+## 1. Variables & Types [ ✔️ ] FINISHED
 
 Runnable examples and explanations live in [`variables-types/`](./variables-types/).
 
@@ -21,29 +21,31 @@ Runnable examples and explanations live in [`variables-types/`](./variables-type
 
 **Self-Test Prompts**
 
-* Why is Java always pass-by-value?
-* What happens when you pass an object to a method?
-* Why Integer caching exists?
+* Why is Java always pass-by-value? -> because Java always passes a copy of the variable, whether it's a primitive (copy of value) or reference (copy of address)
+* What happens when you pass an object to a method? -> A copy of the reference is passed, so both the original and the parameter point to the same object in memory
+* Why Integer caching exists? -> To improve performance by reusing frequently used Integer objects within the range of -128 to 127
 
 ---
 
 ## 2. `static`, `final`, `this`, `super` (Critical Core)
 
+Runnable examples and explanations live in [`critical-core/`](./critical-core/).
+
 ### static
 
 **Checklist**
 
-* [ ] static variable
-* [ ] static method
-* [ ] static block
-* [ ] static nested class
-* [ ] static vs instance
+* [ ✔️ ] static variable
+* [ ✔️ ] static method
+* [ ✔️ ] static block
+* [ ✔️ ] static nested class
+* [ ✔️ ] static vs instance
 
 **Self-Test Prompts**
 
-* When is static variable initialized?
-* Can static method access instance variables?
-* Why is `main()` static?
+* When is static variable initialized? -> when the class is loaded
+* Can static method access instance variables? -> No, because static methods belong to the class, not an instance
+* Why is `main()` static? -> because it needs to be called by the JVM without creating an instance of the class
 
 ---
 
@@ -51,15 +53,15 @@ Runnable examples and explanations live in [`variables-types/`](./variables-type
 
 **Checklist**
 
-* [ ] final variable
-* [ ] final method
-* [ ] final class
-* [ ] final vs immutability
+* [ ✔️ ] final variable
+* [ ✔️ ] final method
+* [ ✔️ ] final class
+* [ ✔️ ] final vs immutability
 
 **Self-Test Prompts**
 
-* final object vs immutable object difference?
-* Why String is immutable?
+* final object vs immutable object difference? -> A final object cannot be reassigned to point to a different object, but its internal state can still be changed if it's mutable. An immutable object cannot have its internal state changed after it's created, regardless of whether it's final or not.
+* Why String is immutable? -> To improve performance and security, because immutable objects can be safely shared and cached without worrying about changes to their state
 
 ---
 
@@ -67,19 +69,19 @@ Runnable examples and explanations live in [`variables-types/`](./variables-type
 
 **Checklist**
 
-* [ ] this keyword
-* [ ] super keyword
-* [ ] constructor chaining
-* [ ] method overriding
+* [ ✔️ ] this keyword
+* [ ✔️ ] super keyword
+* [ ✔️ ] constructor chaining
+* [ ✔️ ] method overriding
 
 **Self-Test Prompts**
 
-* When use `this()` vs `super()`?
-* Can we call both in constructor?
+* When use `this()` vs `super()`? -> `this()` is used to call another constructor in the same class, while `super()` is used to call a constructor in the parent class. They cannot be used together in the same constructor because both must be the first statement if they are used.
+* Can we call both in constructor? -> No, because both `this()` and `super()` must be the first statement in a constructor, so you cannot call both in the same constructor.
 
 ---
 
-# Phase 2 — OOP (Very Important for Interviews)
+# Phase 2 — OOP
 
 ## 3. OOP Concepts
 

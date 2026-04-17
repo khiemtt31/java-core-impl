@@ -4,7 +4,7 @@ This file documents how the `variables-types` folder was built so it can be reus
 
 ## Source of truth
 
-The root [`README.md`](../README.md) contains the checklist and interview prompts for part I request
+The root [`README.md`](./README.md) contains the checklist and interview prompts for part I request
 
 ## What I created
 
