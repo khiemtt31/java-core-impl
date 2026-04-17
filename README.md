@@ -83,20 +83,22 @@ Runnable examples and explanations live in [`critical-core/`](./critical-core/).
 
 # Phase 2 — OOP
 
-## 3. OOP Concepts
+## 3. OOP Concepts [ ✔️ ] FINISHED
+
+Runnable examples and explanations live in [`oop-concepts/`](./oop-concepts/).
 
 **Checklist**
 
-* [ ] Encapsulation
-* [ ] Inheritance
-* [ ] Polymorphism
-* [ ] Abstraction
+* [ ✔️ ] Encapsulation
+* [ ✔️ ] Inheritance
+* [ ✔️ ] Polymorphism
+* [ ✔️ ] Abstraction
 
 **Self-Test Prompts**
 
-* Method overloading vs overriding?
-* Abstract class vs interface?
-* When to use interface?
+* Method overloading vs overriding? -> Overloading is compile-time polymorphism with the same method name but different parameters; overriding is runtime polymorphism where a subclass replaces a parent method.
+* Abstract class vs interface? -> Use an abstract class when you need shared state or common implementation; use an interface when you need a contract that multiple unrelated classes can implement.
+* When to use interface? -> Use an interface when you want a capability, multiple implementations, or loose coupling without shared state.
 
 ---
 
