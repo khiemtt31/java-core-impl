@@ -102,19 +102,21 @@ Runnable examples and explanations live in [`oop-concepts/`](./oop-concepts/).
 
 ---
 
-## 4. Object Class (Very Important)
+## 4. Object Class (Very Important) [ ✔️ ] FINISHED
+
+Runnable examples and explanations live in [`object-class/`](./object-class/).
 
 **Checklist**
 
-* [ ] equals()
-* [ ] hashCode()
-* [ ] toString()
-* [ ] clone()
+* [ ✔️ ] equals() => logical equality based on object state
+* [ ✔️ ] hashCode() => must stay consistent with equals() for hash-based collections
+* [ ✔️ ] toString() => readable text representation for logs and debugging
+* [ ✔️ ] clone() => field-by-field copy of an object, usually shallow
 
 **Self-Test Prompts**
 
-* Why override hashCode with equals?
-* What happens if not override?
+* Why override hashCode with equals? -> Equal objects must return the same hash code so `HashSet` and `HashMap` can place and find them in the same bucket.
+* What happens if not override? -> You fall back to `Object` identity behavior, so two objects with the same data compare unequal and hash-based lookups can fail or store duplicates.
 
 ---
 
