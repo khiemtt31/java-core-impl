@@ -283,30 +283,6 @@ If time limited, learn in this order:
 
 ---
 
-# Daily Learning Plan (Recommended)
-
-## Week 1
-
-* Day 1 — static / final
-* Day 2 — OOP
-* Day 3 — Object class
-* Day 4 — String
-* Day 5 — Exception
-* Day 6 — Collections (List)
-* Day 7 — Collections (Set)
-
-## Week 2
-
-* Day 8 — HashMap deep dive
-* Day 9 — TreeMap / LinkedHashMap
-* Day 10 — Queue / Deque
-* Day 11 — Multithreading basics
-* Day 12 — Java Memory Model
-* Day 13 — Practice
-* Day 14 — Mock interview
-
----
-
 # Practice Questions (Must Solve)
 
 * Implement HashMap manually
@@ -338,10 +314,6 @@ Given your goal (strong software engineer role), your **top priority** should be
 3. Memory model
 4. Multithreading
 
-These are heavily tested in interviews.
+These are heavily tested in interviews. Please focus on understanding the concepts deeply and practicing coding problems related to these topics.
 
-If useful, I can also provide:
-
-* 7-day crash plan
-* Interview questions list
-* Java core roadmap to senior level
+--- Hanzo ---
