@@ -122,18 +122,20 @@ Runnable examples and explanations live in [`object-class/`](./object-class/).
 
 # Phase 3 — Collections Framework (MOST IMPORTANT)
 
-## 5. List
+## 5. List [ ✔️ ] FINISHED
+
+Runnable examples and explanations live in [`list/`](./list/).
 
 **Checklist**
 
-* [ ] ArrayList
-* [ ] LinkedList
-* [ ] Vector (basic knowledge)
+* [ ✔️ ] ArrayList => resizable array-backed list, fast for indexed reads and append
+* [ ✔️ ] LinkedList => node-based list, better for frequent inserts and removes near the ends
+* [ ✔️ ] Vector (basic knowledge) => legacy synchronized resizable array
 
 **Self-Test Prompts**
 
-* ArrayList vs LinkedList?
-* Which one faster for insert?
+* ArrayList vs LinkedList? -> ArrayList is usually faster for indexed reads; LinkedList only wins when you already have the insertion point or you are working near the ends.
+* Which one faster for insert? -> It depends on the location. ArrayList is usually fastest for append; LinkedList can help with end-heavy edits, but for arbitrary inserts ArrayList often still wins in practice because LinkedList must traverse nodes.
 
 ---
 
